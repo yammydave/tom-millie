@@ -12,7 +12,8 @@ h1{
 img{
     display:flex;
     position: absolute;
-    width:110%;
+    width:100%;
+    max-width: 1400px;
     height: 75%;
     object-fit: cover;
     top: 10%;
@@ -38,4 +39,9 @@ h2{
     width: 100%;
     align-content: center;
     justify-content: center;
+}
+@media only screen and (min-width:1400px){
+    .img {
+        padding-left: 20%;
+    }
 }
