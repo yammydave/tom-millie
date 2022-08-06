@@ -1,47 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Cookie&display=swap');
 body{
-    width: 100%;
-    height: 100%;
     background-color: antiquewhite;
 }
 h1{
     font-family: arizonia, sans-serif;
-    font-size:50px;
+    font-size:35px;
     display:flex;
 }
-img{
-    display:flex;
-    position: absolute;
-    width:100%;
-    max-width: 1400px;
-    height: 75%;
-    object-fit: cover;
-    top: 20%;
-    padding: 0% 5% 0% 5%;
-}
+
 h2{
     font-family:cookie, sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     color: black;
+}
+.img{
+    display:flex;
+    width:100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 650px;
+    object-fit: cover;
 }
 .title{    
     position: absolute;
-    top: 95%;
-    left: 15%;
+    top: 85%;
+    align-items: center;
 }
 .sub-title{    
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: 76%;
+    align-items: center;
 }
 .sub-title, .title{
     display:flex;
     width: 100%;
     align-content: center;
     justify-content: center;
-}
-@media only screen and (min-width:1400px){
-    .img {
-        padding-left: 20%;
-    }
+    background-color: antiquewhite;
 }
